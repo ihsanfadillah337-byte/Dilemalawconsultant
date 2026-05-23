@@ -32,7 +32,7 @@ const nonLitigasi = {
 
 function Column({ data }: { data: typeof litigasi }) {
   return (
-    <div className="flex h-full flex-col border border-slate-800 p-8 lg:p-10">
+    <div className="flex h-full flex-col bg-slate-50 border border-slate-800 p-6 lg:p-8">
       <span className="text-xs uppercase tracking-[0.3em] text-slate-500">
         {data.caption}
       </span>
@@ -40,11 +40,11 @@ function Column({ data }: { data: typeof litigasi }) {
         {data.title}
       </h3>
 
-      <div className="mt-10 flex-1 border-t border-slate-300">
+      <div className="mt-8 flex-1 border-t border-slate-300">
         {data.items.map((it) => (
           <div
             key={it.name}
-            className="border-b border-slate-300 py-8 last:border-b-0"
+            className="border-b border-slate-300 py-5 last:border-b-0"
           >
             <h4 className="font-['Bookman_Old_Style',_serif] font-semibold text-xl text-slate-800 sm:text-xl">
               {it.name}
@@ -79,7 +79,7 @@ export function PracticeAreas() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-px bg-slate-300 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
           <Column data={litigasi} />
           <Column data={nonLitigasi} />
         </div>
