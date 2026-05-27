@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 export function Hero() {
   return (
     <section
@@ -16,12 +14,7 @@ export function Hero() {
       <div aria-hidden className="absolute inset-0 bg-slate-950/90" />
 
       <div className="relative mx-auto w-full max-w-6xl">
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="max-w-3xl"
-        >
+        <div className="max-w-3xl">
           <span className="mb-8 inline-block text-xs uppercase tracking-[0.3em] text-white/75">
             Advocate &amp; Legal Consultant
           </span>
@@ -54,7 +47,7 @@ export function Hero() {
               Urus Legalitas Bisnis
             </a>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
