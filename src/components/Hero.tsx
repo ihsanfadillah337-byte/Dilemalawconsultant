@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex w-full items-center overflow-hidden bg-slate-950 px-6 py-20 lg:py-28 lg:px-12"
+      className="relative flex w-full items-center overflow-hidden bg-slate-950 px-6 pt-12 pb-20 lg:pt-16 lg:pb-24 lg:px-12"
     >
       {/* Watermark image */}
       <div
@@ -22,7 +22,7 @@ export function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="max-w-3xl"
         >
-          <span className="mb-8 inline-block text-xs uppercase tracking-[0.3em] text-white/75">
+          <span className="mb-4 inline-block text-xs uppercase tracking-[0.3em] text-white/75">
             Advocate &amp; Legal Consultant
           </span>
 
@@ -31,16 +31,16 @@ export function Hero() {
             untuk Masyarakat.
           </h1>
 
-          <p className="mt-8 font-['Bookman_Old_Style',_serif] text-xl italic text-white/80 sm:text-2xl">
+          <p className="mt-4 font-['Bookman_Old_Style',_serif] text-xl italic text-white/80 sm:text-2xl">
             “Audi et alteram partem.”
           </p>
 
-          <p className="mt-8 max-w-xl text-base leading-relaxed text-white/80 sm:text-lg">
+          <p className="mt-4 max-w-xl text-base leading-relaxed text-white/80 sm:text-lg">
             Advocate &amp; Legal Consultant. Kami hadir memberikan solusi hukum
             yang presisi dengan selalu mendengarkan setiap sisi.
           </p>
 
-          <div className="mt-12 flex flex-col gap-4 sm:flex-row">
+          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <a
               href="#kontak"
               className="inline-flex items-center justify-center bg-white px-8 py-4 text-sm font-semibold uppercase tracking-wider text-slate-950 transition-colors hover:bg-white/90"
