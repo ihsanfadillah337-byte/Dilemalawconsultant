@@ -13,9 +13,9 @@ export function Navbar() {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-12">
         <a href="#hero" className="flex items-center">
           <img
-            src="logo-dlc.png"
-            alt="Logo DLC"
-            className="h-12 w-auto object-contain"
+            src="/desain_DLC_-removebg-preview.png"
+            alt="Dilema Law Consultant"
+            className="h-20 md:h-24 w-auto object-contain"
           />
         </a>
 
