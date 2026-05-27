@@ -13,7 +13,7 @@ export function Navbar() {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 lg:px-12">
         <a href="#hero" className="flex items-center">
           <img
-            src="/desain_DLC_-removebg-preview.png"
+            src="/logo-transparent.png"
             alt="Dilema Law Consultant"
             className="h-16 w-auto md:h-20"
           />
@@ -24,7 +24,7 @@ export function Navbar() {
             <li key={l.label}>
               <a
                 href={l.href}
-                className="text-xs uppercase tracking-[0.2em] text-white/80 transition-colors hover:text-white"
+                className="text-xs font-bold uppercase tracking-[0.2em] text-white transition-colors hover:text-slate-300 drop-shadow-md"
               >
                 {l.label}
               </a>
