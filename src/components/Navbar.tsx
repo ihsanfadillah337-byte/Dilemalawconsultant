@@ -10,12 +10,12 @@ const links = [
 export function Navbar() {
   return (
     <header className="w-full bg-white border-b border-slate-200 z-50 relative">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-2 lg:px-12">
-        <a href="#hero" className="flex items-center relative z-50">
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-12">
+        <a href="#hero" className="flex items-center">
           <img
             src="/logo-dlc-new.png"
             alt="Dilema Law Consultant"
-            className="h-16 md:h-20 w-auto object-contain -mb-8 md:-mb-12"
+            className="h-12 md:h-14 w-auto object-contain"
           />
         </a>
 
