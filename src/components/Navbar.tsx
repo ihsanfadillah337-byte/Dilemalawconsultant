@@ -9,13 +9,13 @@ const links = [
 
 export function Navbar() {
   return (
-    <header className="absolute top-0 left-0 right-0 z-40 bg-transparent">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 lg:px-12">
+    <header className="bg-white sticky top-0 w-full z-50 border-b border-slate-200 shadow-sm">
+      <nav className="flex justify-between items-center h-20 px-4 md:px-8 max-w-7xl mx-auto">
         <a href="#hero" className="flex items-center">
           <img
-            src="/logo-transparent.png"
-            alt="Dilema Law Consultant"
-            className="h-16 w-auto md:h-20"
+            src="/logo-dlc.png"
+            alt="Logo DLC"
+            className="h-10 w-auto object-contain"
           />
         </a>
 
@@ -24,7 +24,7 @@ export function Navbar() {
             <li key={l.label}>
               <a
                 href={l.href}
-                className="text-xs font-bold uppercase tracking-[0.2em] text-white transition-colors hover:text-slate-300 drop-shadow-md"
+                className="text-xs font-bold uppercase tracking-[0.2em] text-slate-800 font-sans transition-colors hover:text-blue-900"
               >
                 {l.label}
               </a>
@@ -35,3 +35,4 @@ export function Navbar() {
     </header>
   );
 }
+
