@@ -9,7 +9,7 @@ const links = [
 
 export function Navbar() {
   return (
-    <header className="absolute top-0 left-0 right-0 z-40 bg-transparent">
+    <header className="absolute top-0 left-0 right-0 z-40 bg-white shadow-sm">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 lg:px-12">
         <a href="#hero" className="flex items-center">
           <img
@@ -24,7 +24,7 @@ export function Navbar() {
             <li key={l.label}>
               <a
                 href={l.href}
-                className="text-xs font-bold uppercase tracking-[0.2em] text-white transition-colors hover:text-slate-300 drop-shadow-md"
+                className="text-xs font-bold uppercase tracking-[0.2em] text-slate-700 transition-colors hover:text-blue-700"
               >
                 {l.label}
               </a>

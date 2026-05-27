@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex min-h-screen w-full items-center overflow-hidden bg-slate-950 px-6 pt-24 pb-16 lg:px-12"
+      className="relative flex min-h-screen w-full items-center overflow-hidden bg-slate-950 px-6 pt-32 pb-16 lg:px-12"
     >
       {/* Watermark image */}
       <div
